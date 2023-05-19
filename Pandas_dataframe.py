@@ -53,5 +53,27 @@ df['three']=pd.Series([10,20,30],index=['a','b','c'])
 df['four']=df['one']+df['three']
 print(df)
 
+'''
+
+
+####
+'''
+#importing a new column to a existing dataframe
+d = {'one':pd.Series([1,2,3],index = ['a','b','c']),'two':pd.Series([1,2,3,4],index=['a','b','c','d'])}
+df = pd.DataFrame(d)
+df['three']=pd.Series([10,20,30],index=['a','b','c'])
+df['four']=df['one']+df['three']
+print("the series Representation is: ")
+print(df)
+
+#to delete a column we can use a del keyword
+print("The dataFrame after deleteing using the del object")
+del df['one']
+print(df)
+
+#deleting using the pop function 
+print("THe dataframe after deleting using the pop function")
+df.pop('two')
+print(df)
 
 '''
