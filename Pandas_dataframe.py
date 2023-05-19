@@ -77,3 +77,15 @@ df.pop('two')
 print(df)
 
 '''
+'''
+
+df = pd.DataFrame([[1.2],[3,4]],columns = ['a','b'])
+df2 = pd.DataFrame([[4,6],[6,7]],columns = ['a','b'])
+df2.append(df)
+print(df)
+#drop rows with label  0 
+
+df = df.drop(0)
+print(df)
+# now the row with label 0 was droped
+'''
