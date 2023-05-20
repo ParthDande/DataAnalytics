@@ -1,3 +1,6 @@
+//OOP in CPP
+//created a class box 
+//computed its volume using method of the class
 #include<stdio.h>
 #include<iostream>
 using namespace std;

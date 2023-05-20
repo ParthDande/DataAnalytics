@@ -1,4 +1,7 @@
 # Class A is the parent class
+#oop using python
+# Inheritance  in python
+#the below code dfemonstrates multilevel inheritance
 class A :
     a = 10
     def __init__(self):#constuctor of class A
@@ -6,7 +9,7 @@ class A :
 
     def fun1(self):
         print("class A function")
-class B(A):
+class B(A):#Class B inherits the methods and data members of class A
     #this is the child class
     def __init__(self):
         print("Constructor of CLASS B")
