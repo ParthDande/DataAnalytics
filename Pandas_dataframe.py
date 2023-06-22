@@ -6,7 +6,7 @@ Created on Fri May 19 15:04:44 2023
 """
 
 #working in pandas dataframe
-#data frmae consists of rows and columns
+#data frame consists of rows and columns
 '''
 each column stores a specific type of data
 pandas.DataFrame(data,index,column,dtype,copy)
